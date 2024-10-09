@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khao sat</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="Main">
+        <header>
+            <h1 id="title" class="text-center">BÀI KHẢO SÁT</h1>
+            <p id="description" class="description text-center">Đây là bài khảo sát về sở thích của người dùng</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Họ và tên:</label>
+                <input id="name" name="name" placeholder="Nhập họ và tên của bạn" type="text" required class="form-control">
+            </div>
+            <div class="form-group">
+                <label id="age-label" for="age">Tuổi:</label>
+                <input id="age" name="age" placeholder="Tuổi" type="number" max="100" min="10" required class="form-control">
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email:</label>
+                <input id="email" name="email" placeholder="Nhập email" type="email" required class="form-control">
+            </div>
+            <div class="form-group">
+                <label id="phone-label" for="phone">SĐT:(Không bắt buộc)</label>
+                <input id="phone" name="phone" placeholder="Nhập SĐT" type="tel">
+            </div>
+            <div class="form-group">
+                <p>Bạn thuộc thể loại nào ?</p>
+                <label>
+                    <input name="fav1" value="Thích đi ra ngoài" type="radio" class="input-radio" checked>Thích đi ra ngoài
+                </label>
+                <label>
+                    <input name="fav1" value="Thích ở nhà" type="radio" class="input-radio">Thích ở nhà
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Bạn thích chơi những thể loại game nào nhất ?</p>
+                <label for=""></label>
+                <label>
+                    <input name="fav2" value="action RPG" type="checkbox" class="input-checkbox">action RPG
+                </label>
+                <label>
+                    <input name="fav2" value="action Game" type="checkbox" class="input-checkbox">action Game
+                </label>
+                <label>
+                    <input name="fav2" value="Fighting" type="checkbox" class="input-checkbox">Fighting
+                </label>
+                <label>
+                    <input name="fav2" value="Sports" type="checkbox" class="input-checkbox">Sports
+                </label>
+                <label>
+                    <input name="fav2" value="Racing" type="checkbox" class="input-checkbox">Racing
+                </label>
+                <label>
+                    <input name="fav2" value="Strategy game" type="checkbox" class="input-checkbox">Strategy game
+                </label>
+                <label>
+                    <input name="fav2" value="MMORPG" type="checkbox" class="input-checkbox">MMORPG
+                </label>
+                <label>
+                    <input name="fav2" value="Platformer" type="checkbox" class="input-checkbox">Platformer
+                </label>
+                <label>
+                    <input name="fav2" value="Shooter" type="checkbox" class="input-checkbox">Shooter
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Bạn thích coi những thể loại phim nào nhất ?</p>
+                <label>
+                    <input name="fav3" value="Drama" type="checkbox" class="input-checkbox">Drama 
+                </label>
+                <label>
+                    <input name="fav3" value="Horror" type="checkbox" class="input-checkbox">Horror
+                </label>
+                <label>
+                    <input name="fav3" value="Action" type="checkbox" class="input-checkbox">Action
+                </label>
+                <label>
+                    <input name="fav3" value="Science" type="checkbox" class="input-checkbox">Science
+                </label>
+                <label>
+                    <input name="fav3" value="Mystery" type="checkbox" class="input-checkbox">Mystery
+                </label>
+                <label>
+                    <input name="fav3" value="Fantasy" type="checkbox" class="input-checkbox">Fantasy
+                </label>
+                <label>
+                    <input name="fav3" value="Romance" type="checkbox" class="input-checkbox">Romance
+                </label>
+                <label>
+                    <input name="fav3" value="Comedy" type="checkbox" class="input-checkbox">Comedy
+                </label>
+                <label>
+                    <input name="fav3" value="Tragedy" type="checkbox" class="input-checkbox">Tragedy
+                </label>
+                <label>
+                    <input name="fav3" value="Spy" type="checkbox" class="input-checkbox">Spy
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Vòng 1 lý tưởng của bạn gái bạn là ?</p>
+                <select id="most-like" name="mostlike" class="form-control" required>
+                    <option disabled selected value>Chọn vòng 1 lý tưởng :P</option>
+                    <option value="Lép">Lép</option>
+                    <option value="Vừa">Vừa</option>
+                    <option value="To">To</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Ai là diễn viên JAV yêu thích nhất của bạn ?</p>
+                <select id="most-like2" name="mostlike2" class="form-control" required>
+                    <option disabled selected value>Hãy chọn đi!</option>
+                    <option value="Rion">Thánh nữ Rion(Utsunomiya Shion)</option>
+                    <option value="Karen">Nữ thần Karen Kaede</option>
+                    <option value="Yua">IDOL YUA MIKAMI</option>
+                    <option value="Eimi">Eimi Fukada</option>
+                    <option value="Kana">Kana Momonogi</option>
+                    <option value="Emiri">Emiri Suzuhara</option>
+                    <option value="Anna">Anna Kami</option>
+                    <option value="Ayano">Ayano Nana</option>
+                    <option value="Yui">Yui hatano</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>TỐI NAY CÓ CHƠI KHÔNG HẢ !!!!!???</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="CÓ CHƠI KHÔNG - CÓ - CÓ"></textarea>
+            </div> 
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Gửi</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
